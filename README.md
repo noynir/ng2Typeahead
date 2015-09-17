@@ -1,12 +1,5 @@
 #ng-hackathon-starter
 
-This simple project demonstrates:
+This a work in progress for a typeahead angular2 wrapper component.
 
-* Template Syntax
-* Events
-* Routing
-* Http
-
-It uses the in-browser TypeScript compiler, so no tools are required. Just edit the .ts files.
-
-Big thanks to @robwormald for help with using jspm to bundle up Angular 2 and the dependencies.
+I had some trouble of importing the typehead script as a jquery plugin, so i pushed it directly into the html 

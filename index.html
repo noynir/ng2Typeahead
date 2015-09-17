@@ -8,17 +8,23 @@
     <!-- systemJS loader + config -->
     <script src="lib/system.js"></script>
     <script src="config.js"></script>
+
     <!-- Angular2 imports -->
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
     <script src="node_modules/angular2/bundles/router.dev.js"></script>
     <script src="node_modules/angular2/bundles/http.dev.js"></script>
     <!-- import app -->
-    <script async>
+    <script async> 
       System.import("app");
     </script>
   </head>
 
   <body>
     <app>Loading...</app>
+    <br />
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/lib/typeahead.bundle.js"></script>
+
   </body>
+
 </html>
